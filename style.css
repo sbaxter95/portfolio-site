@@ -1,0 +1,91 @@
+body {
+	font-family: 'Nova Square', cursive;
+}
+
+.colour {
+	background-color: #990000;
+	width: 100px;
+	height: auto;
+}
+
+.name {
+	background-color: #292b2c;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 60px;
+}
+
+.silver {
+	background-color: #e6e6e6;
+	width: 100px;
+	height: 200px;
+}
+
+.btn-secondary {
+	background-color: #990000;
+	color: white;
+}
+
+.container {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: solid 2px black;
+}
+
+hr {
+	border: solid 2px black;
+	width: 40%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.about {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.information {
+	background-color: #e6e6e6;
+}
+
+.dark-information {
+	background-color: #292b2c;
+	color: white;
+}
+
+.silver2 {
+	background-color: #d9d9d9;
+	width: 100px;
+	height: auto;
+}
+
+.box {
+	border: solid 2px black;
+}
+
+.photo {
+	margin-left: 180px;
+	margin-top: 50px;
+	width: 200px;
+	height: 250px;
+	border: solid 5px black;
+}
+
+h2 {
+	color: #990000;
+	margin-bottom: 50px;
+}
+
+.int-image {
+	width: 200px;
+	height: 150px;
+}
+
+.interests {
+	margin-left: 50px;
+}
