@@ -89,3 +89,98 @@ h2 {
 .interests {
 	margin-left: 50px;
 }
+
+.bar-graph {
+	width: 800px;
+}
+
+ul.bar-graph li {
+	height: 35px;
+	color: white;
+	text-align: left;
+	font-size: 14px;
+	line-height: 35px;
+	padding: 0 20px;
+	margin-bottom: 5px;
+	margin-left: 50px;
+}
+
+ul.bar-graph li {
+	height: 35px;
+	color: white;
+	text-align: left;
+	font-size: 14px;
+	line-height: 35px;
+	padding: 0 20px;
+	margin-bottom: 5px;
+	margin-left: 50px;
+
+}
+
+ul.bar-graph li#html {
+	background-color: black;
+	width: 100%;
+}
+
+ul.bar-graph li#css {
+	background-color: #0d0d0d;
+	width: 80%;
+}
+
+ul.bar-graph li#bootstrap {
+	background-color: #1a1a1a;
+	width: 90%;
+}
+
+ul.bar-graph li#javascript {
+	background-color: #262626;
+	width: 75%;
+}
+
+ul.bar-graph li#jquery {
+	background-color: #333333;
+	width: 80%;
+}
+
+ul.bar-graph li#bash {
+	background-color: #404040;
+	width: 90%;
+}
+
+ul.bar-graph li#git {
+	background-color: #4d4d4d;
+	width: 65%;
+}
+
+ul.bar-graph li#csharp {
+	background-color: #595959;
+	width: 50%;
+}
+
+ul.bar-graph li#python {
+	background-color: #666666;
+	width: 70%;
+}
+
+#skills {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.panel {
+	height: 200px;
+	background-color: black;
+	margin-left: 60px;
+	margin-right: 5px;
+	margin-bottom: 20px;
+}
+
+#projects {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#about {
+	margin-left: 50px;
+	margin-right: 50px;
+}
