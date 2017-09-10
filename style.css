@@ -43,7 +43,7 @@ hr {
 	margin-bottom: 50px;
 }
 
-.about {
+#about {
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-bottom: 50px;
@@ -86,7 +86,7 @@ h2 {
 	height: 150px;
 }
 
-.interests {
+#interests {
 	margin-left: 50px;
 }
 
@@ -176,11 +176,15 @@ ul.bar-graph li#python {
 }
 
 #projects {
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 #about {
 	margin-left: 50px;
 	margin-right: 50px;
+}
+
+#projects-heading {
+	margin-left: 20px;
 }
