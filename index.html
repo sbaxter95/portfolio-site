@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
   	<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse navbar-fixed">
@@ -181,7 +182,9 @@
     <hr>
     <section id="contact">
       <h2 id="contact-header">CONTACT</h2>
-      <h4 id="form-message">Send me a message at sbaxter95@outlook.com</h4>
+      <div class="row">
+        <div class="col-8">
+          <h4 id="form-message">Send me a message at sbaxter95@outlook.com</h4>
       <form>
         <div class="form-group">
           <label for="Name">Name</label>
@@ -189,13 +192,19 @@
         </div>
         <div class="form-group">
           <label for="Email">Email</label>
-          <input type="text" class="form-control" id="email" placeholder="Another input">
+          <input type="text" class="form-control" id="email" placeholder="Email">
         </div>
         <div class="form-group">
-          <label for="Email">Message</label>
+          <label for="Message">Message</label>
           <input type="text" class="form-control" id="message" placeholder="Message">
         </div>
+        <button type="submit" class="btn btn-secondary" id="submit-btn">Submit</button>
       </form>
+        </div>
+        <div class="col-4">
+          
+        </div>
+      </div>
     </section>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
