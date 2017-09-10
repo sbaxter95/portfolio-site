@@ -69,8 +69,8 @@ hr {
 }
 
 .photo {
-	margin-left: 180px;
-	margin-top: 50px;
+	margin-left: 100px;
+	margin-top: 100px;
 	width: 200px;
 	height: 250px;
 	border: solid 5px black;
@@ -91,7 +91,7 @@ h2 {
 }
 
 .bar-graph {
-	width: 800px;
+	width: 75%;
 }
 
 ul.bar-graph li {
@@ -176,8 +176,8 @@ ul.bar-graph li#python {
 }
 
 #projects {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 30px;
+	margin-right: 10px;
 }
 
 #about {
@@ -187,4 +187,16 @@ ul.bar-graph li#python {
 
 #projects-heading {
 	margin-left: 20px;
+}
+
+.skills-list {
+	list-style: square;
+	color: #990000;
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+.about-list {
+	font-size: 20px;
+	list-style: square;
 }
