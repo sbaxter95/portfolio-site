@@ -1,5 +1,6 @@
 body {
 	font-family: 'Nova Square', cursive;
+	margin: 0 auto;
 }
 
 .colour {
@@ -199,4 +200,29 @@ ul.bar-graph li#python {
 .about-list {
 	font-size: 20px;
 	list-style: square;
+}
+
+#contact-header {
+	margin-left: 20px;
+}
+
+form {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 60%;
+	border: solid black 2px;
+	margin-bottom: 50px;
+}
+
+#form-message {
+	margin-left: 20px;
+}
+
+.form-control {
+	width: 90%;
+	margin-left: 20px;
+}
+
+label {
+	margin-left: 10px;
 }
